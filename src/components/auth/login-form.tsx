@@ -7,6 +7,7 @@ import {zodResolver} from "@hookform/resolvers/zod";
 import { LoginSchema } from "@/schemas";
 import { Input } from "@/src/components/ui/input";
 import { login } from "@/actions/login"
+import { X } from "lucide-react";
 
 import * as z from "zod";
 
